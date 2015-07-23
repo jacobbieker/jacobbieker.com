@@ -28,6 +28,8 @@
       <!----- This adds the building block CSS ---->
       <link rel="stylesheet" href="css/buidingblocks.css">
     <script src="js/vendor/modernizr.js"></script>
+      <!---------------This allows the sorting of projects, etc. ------------------>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.1/isotope.pkgd.min.js"></script>
   </head>
   <!--------------------------------------Header Section -------------------------------------------------->
 <div class="contain-to-grid sticky">
@@ -235,6 +237,8 @@
   </article>
   <!-------------------------------------End of Experiences Section --------------------------------------------->
   <!--------------------------------------Start of Work Section -------------------------------------->
+<div class="grid js-isotope"
+     data-isotope-options='{ "itemSelector": ".item", "layoutMode": "fitRows" }'>
   <div class="row">
       <div class="medium-4 columns">
           <div class="card">
@@ -455,6 +459,7 @@
         </div>
     </div>
 </div>
+    </div>
   <!--------------------------------------End of Work Section -------------------------------------->
   </body>
 </html>
