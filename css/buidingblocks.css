@@ -1,3 +1,4 @@
+
 /*
  * Copyright (C) 2015.  Jacob Bieker, jacob@bieker.us, ww.jacobbieker.com
  *
@@ -15,6 +16,7 @@
  *                                with this program; if not, write to the Free Software Foundation, Inc.,
  *                                51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
+
 
 /*
 Header CSS
@@ -252,17 +254,9 @@ Footer
     text-align: center;
     font-size: 1.2rem;
     padding: 1rem; }
-.footer .social a {
-    display: inline-block;
-    width: 2rem;
-    height: 2rem;
-    background-color: #33383b;
-    border-radius: 2px;
-    font-size: 1.5rem;
-    color: #fff;
-    text-align: center;
-    line-height: 2rem;
-    margin: 0 3px 0 0; }
+.footer p {
+    color: #ffffff;
+}
 .footer .copywrite {
     color: #8f9296;
     font-size: 0.875rem;
@@ -317,9 +311,3 @@ Footer
         position: absolute;
         left: -45%;
         top: 10%; } }
-
-.logo {
-    color: #fff;
-    font-size: 1.5rem; }
-.logo i {
-    margin-right: 0.5rem; }
