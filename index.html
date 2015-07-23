@@ -16,45 +16,21 @@
   ~                                with this program; if not, write to the Free Software Foundation, Inc.,
   ~                                51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
   -->
-< class="no-js" lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jacob Bieker</title>
-    <link rel="stylesheet" href="css/foundation.css" />
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Jacob Bieker</title>
+      <link rel="stylesheet" href="css/foundation.css" />
       <link rel="stylesheet" href="foundation-icons/foundation-icons.css" />
       <!-- this adds Foundation Icon Fonts!! -->
       <!--<link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
       <!----- This adds the building block CSS ---->
       <link rel="stylesheet" href="css/buidingblocks.css">
-    <script src="js/vendor/modernizr.js"></script>
+      <script src="js/vendor/modernizr.js"></script>
       <!---------------This allows the sorting of projects, etc. ------------------>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.1/isotope.pkgd.min.js"></script>
+    <script src="js/isotopesorting.js"></script>
   </head>
-  <!--------------------------------------Header Section -------------------------------------------------->
-<div class="contain-to-grid sticky">
-<nav class="top-bar" data-topbar>
-    <ul class="title-area">
-        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-    </ul>
-    <div class="logo">
-        <a href="http://zurb.com/stickers/images/intro-foundation.png"><img src="http://zurb.com/stickers/images/intro-foundation.png" /></a>
-    </div>
-    <section class="top-bar-section">
-        <!-- Right Nav Section -->
-        <ul class="center-buttons">
-            <li class="divider"></li>
-            <li><a href="#">Centered Button</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Centered Button</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Centered Button</a></li>
-            <li class="divider"></li>
-        </ul>
-    </section>
-</nav>
-</div>
   <!-------------------------------------- Start Personal Info Section -------------------------------------->
   <div class="row">
       <div class="large-7 columns">
@@ -236,11 +212,27 @@
       </div>
   </article>
   <!-------------------------------------End of Experiences Section --------------------------------------------->
+<div class="row">
+    <div class="small-12 columns isotope-buttons">
+        <div class="card">
+            <span class="title">Example of Work</span>
+            <div class="content">
+                <ul class="inline-list">
+                    <li><button data-filter="*">Show All</button></li>
+                    <li><button data-filter="research">Research</button></li>
+                    <li><button data-filter="app">Apps</button></li>
+                    <li><button data-filter="website">Web</button> </li>
+                    <li><button data-filter="wearable">Wearable</button> </li>
+                    <li><button data-filter="other">Other</button> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
   <!--------------------------------------Start of Work Section -------------------------------------->
-<div class="grid js-isotope"
-     data-isotope-options='{ "itemSelector": ".item", "layoutMode": "fitRows" }'>
   <div class="row">
-      <div class="medium-4 columns oorcc oregon research">
+      <div class="isotope">
+      <div class="medium-4 columns project oorcc oregon research">
           <div class="card">
               <div class="image">
                   <img src="http://static.pexels.com/wp-content/uploads/2014/07/alone-clouds-hills-1909-527x350.jpg">
@@ -254,7 +246,7 @@
               </div>
           </div>
       </div>
-      <div class="medium-4 columns ohsu research">
+      <div class="medium-4 columns project ohsu research">
           <div class="card">
               <div class="image">
                   <img src="http://static.pexels.com/wp-content/uploads/2014/07/alone-clouds-hills-1909-527x350.jpg">
@@ -268,7 +260,7 @@
               </div>
           </div>
       </div>
-      <div class="medium-4 columns oregon research">
+      <div class="medium-4 columns project oregon research">
           <div class="card">
               <div class="image">
                   <img src="http://static.pexels.com/wp-content/uploads/2014/07/alone-clouds-hills-1909-527x350.jpg">
@@ -284,7 +276,7 @@
       </div>
   <!--</div>-->
   <!--<div class="row">-->
-      <div class="medium-4 columns oregon research">
+      <div class="medium-4 columns project oregon research">
           <div class="card">
               <div class="image">
                   <img src="http://static.pexels.com/wp-content/uploads/2014/07/alone-clouds-hills-1909-527x350.jpg">
@@ -298,7 +290,7 @@
               </div>
           </div>
       </div>
-      <div class="medium-4 columns oregon research">
+      <div class="medium-4 columns project oregon research">
           <div class="card">
               <div class="image">
                   <img src="http://static.pexels.com/wp-content/uploads/2014/07/alone-clouds-hills-1909-527x350.jpg">
@@ -312,7 +304,7 @@
               </div>
           </div>
       </div>
-      <div class="medium-4 columns independent other">
+      <div class="medium-4 columns project independent other">
           <div class="card">
               <div class="image">
                   <img src="http://static.pexels.com/wp-content/uploads/2014/07/alone-clouds-hills-1909-527x350.jpg">
@@ -328,7 +320,7 @@
       </div>
       <!--</div>-->
       <!--<div class="row">-->
-      <div class="medium-4 columns ohsu research labkey">
+      <div class="medium-4 columns project ohsu research labkey">
           <div class="card">
               <div class="image">
                   <img src="http://static.pexels.com/wp-content/uploads/2014/07/alone-clouds-hills-1909-527x350.jpg">
@@ -342,7 +334,7 @@
               </div>
           </div>
       </div>
-      <div class="medium-4 columns ohsu research">
+      <div class="medium-4 columns project ohsu research">
           <div class="card">
               <div class="image">
                   <img src="http://static.pexels.com/wp-content/uploads/2014/07/alone-clouds-hills-1909-527x350.jpg">
@@ -356,7 +348,7 @@
               </div>
           </div>
       </div>
-          <div class="medium-4 columns ohsu research labkey">
+          <div class="medium-4 columns project ohsu research labkey">
               <div class="card">
                   <div class="image">
                       <img src="http://static.pexels.com/wp-content/uploads/2014/07/alone-clouds-hills-1909-527x350.jpg">
@@ -372,7 +364,7 @@
           </div>
   <!--</div>-->
 <!--<div class="row">-->
-    <div class="medium-4 columns venture website">
+    <div class="medium-4 columns project venture website">
         <div class="card">
             <div class="image">
                 <img src="http://static.pexels.com/wp-content/uploads/2014/07/alone-clouds-hills-1909-527x350.jpg">
@@ -386,7 +378,7 @@
             </div>
         </div>
     </div>
-    <div class="medium-4 columns website independent">
+    <div class="medium-4 columns project website independent">
         <div class="card">
             <div class="image">
                 <img src="http://static.pexels.com/wp-content/uploads/2014/07/alone-clouds-hills-1909-527x350.jpg">
@@ -400,7 +392,7 @@
             </div>
         </div>
     </div>
-    <div class="medium-4 columns wearable app android independent">
+    <div class="medium-4 columns project wearable app android independent">
         <div class="card">
             <div class="image">
                 <img src="http://static.pexels.com/wp-content/uploads/2014/07/alone-clouds-hills-1909-527x350.jpg">
@@ -416,7 +408,7 @@
     </div>
 <!--</div>-->
 <!--div class="row">-->
-    <div class="medium-4 columns ohsu labkey research">
+    <div class="medium-4 columns project ohsu labkey research">
         <div class="card">
             <div class="image">
                 <img src="http://static.pexels.com/wp-content/uploads/2014/07/alone-clouds-hills-1909-527x350.jpg">
@@ -430,7 +422,7 @@
             </div>
         </div>
     </div>
-    <div class="medium-4 columns ohsu labkey research">
+    <div class="medium-4 columns project ohsu labkey research">
         <div class="card">
             <div class="image">
                 <img src="http://static.pexels.com/wp-content/uploads/2014/07/alone-clouds-hills-1909-527x350.jpg">
@@ -444,7 +436,7 @@
             </div>
         </div>
     </div>
-    <div class="medium-4 columns android app independent">
+    <div class="medium-4 columns project android app independent">
         <div class="card">
             <div class="image">
                 <img src="http://static.pexels.com/wp-content/uploads/2014/07/alone-clouds-hills-1909-527x350.jpg">
