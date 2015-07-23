@@ -23,7 +23,7 @@ Profile Card CSS
 .profile-card {
     padding: 1rem;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    margin: 2rem 0;
+    margin: 1rem 0;
     background-color: #fff; }
 .profile-card img {
     width: 8rem;
@@ -47,36 +47,53 @@ Profile Card CSS
     float: none;
     display: inline-block; }
 .profile-card .profile-info .inline-list i.fi-social-facebook {
-    font-size: 1.5rem;
+    font-size: 3rem;
     color: #3b5998; }
 .profile-card .profile-info .inline-list i.fi-social-facebook:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
     transition: all .5s ease-in-out; }
 .profile-card .profile-info .inline-list i.fi-social-twitter {
-    font-size: 1.5rem;
+    font-size: 3rem;
     color: #55acee; }
 .profile-card .profile-info .inline-list i.fi-social-twitter:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
     transition: all .5s ease-in-out; }
 .profile-card .profile-info .inline-list i.fi-social-linkedin {
-    font-size: 1.5rem;
+    font-size: 3rem;
     color: #0077b5; }
 .profile-card .profile-info .inline-list i.fi-social-linkedin:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
     transition: all .5s ease-in-out; }
 .profile-card .profile-info .inline-list i.fi-social-github {
-    font-size: 1.5rem;
+    font-size: 3rem;
     color: #333; }
 .profile-card .profile-info .inline-list i.fi-social-github:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
     transition: all .5s ease-in-out; }
 .profile-card .profile-info .inline-list i.fi-social-youtube {
-    font-size: 1.5rem;
+    font-size: 3rem;
     color: #cc181e; }
 .profile-card .profile-info .inline-list i.fi-social-youtube:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
     transition: all .5s ease-in-out; }
-
+.profile-card .profile-info .inline-list i.fi-social-instagram {
+    font-size: 3rem;
+    color: #cc181e; }
+.profile-card .profile-info .inline-list i.fi-social-instagram:hover {
+    transform: scale(1.1);
+    transition: all .5s ease-in-out; }
+.profile-card .profile-info .inline-list i.fi-social-flickr {
+    font-size: 3rem;
+    color: #cc181e; }
+.profile-card .profile-info .inline-list i.fi-social-flickr:hover {
+    transform: scale(1.1);
+    transition: all .5s ease-in-out; }
+.profile-card .profile-info .inline-list i.fi-social-android {
+    font-size: 3rem;
+    color: #cc181e; }
+.profile-card .profile-info .inline-list i.fi-social-android:hover {
+    transform: scale(1.1);
+    transition: all .5s ease-in-out; }
 /*
 Custom Icon CSS
 */
@@ -105,7 +122,7 @@ html, body {
 
 .card {
     padding: 1rem;
-    margin: 2rem 0;
+    margin: 1rem 0;
     font-family: 'Roboto', sans-serif;
     overflow: hidden;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -140,3 +157,42 @@ html, body {
     color: #fff; }
 .card .image img {
     border-radius: 2px 2px 0 0; }
+
+/*
+Showcase Cards CSS
+*/
+
+.website-example {
+    background: #fff;
+    padding: 1.75rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+.website-example h3 {
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0 0.5rem 0; }
+@media only screen and (max-width: 64em) {
+    .website-example h3 {
+        padding-top: 1rem; } }
+.website-example h6 {
+    color: #50b2d0;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 0.875rem;
+    font-weight: bold;
+    padding: 0 0 0.5rem 0; }
+.website-example p {
+    font-size: 0.875rem;
+    line-height: 1.2rem;
+    margin: 0;
+    padding: 0.875rem 0;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999; }
+.website-example .button {
+    font-weight: bold;
+    color: #2BA6CB;
+    background: transparent;
+    padding-left: 0;
+    margin-bottom: 0;
+    box-shadow: none; }
