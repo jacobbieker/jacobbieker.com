@@ -194,6 +194,8 @@ html, body {
     color: #000000; }
 .card .image .title .grey {
     color: #999999; }
+.card .image .title .blue {
+    color: #0077b5; }
 .card .image img {
     border-radius: 2px 2px 0 0; }
 
