@@ -177,6 +177,10 @@ html, body {
     transition: color 0.3s ease;
     text-transform: uppercase;
     text-decoration: none; }
+.card #github-feed a {
+    text-transform: none;
+    margin-right: 0rem;
+    text-decoration: none; }
 .card .image {
     position: relative; }
 .card .image .title {
