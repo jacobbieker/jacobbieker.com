@@ -187,10 +187,14 @@ html, body {
     position: absolute;
     bottom: 0;
     left: 0;
+    font-weight: 500;
+    line-height: 3rem;
+    font-size: 2.5rem;
     color: #ffffff; }
 .card .image .title .white {
     color: #ffffff; }
 .card .image .title .black {
+    font-weight: 300;
     color: #000000; }
 .card .image .title .grey {
     color: #999999; }
