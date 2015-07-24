@@ -188,15 +188,11 @@ html, body {
     bottom: 0;
     left: 0;
     color: #ffffff; }
+.card .image .title .white {
+    color: #ffffff; }
 .card .image .title .black {
-    position: absolute;
-    bottom: 0;
-    left: 0;
     color: #000000; }
 .card .image .title .grey {
-    position: absolute;
-    bottom: 0;
-    left: 0;
     color: #999999; }
 .card .image img {
     border-radius: 2px 2px 0 0; }
