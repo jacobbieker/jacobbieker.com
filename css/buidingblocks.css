@@ -22,30 +22,51 @@
 Header CSS
 */
 
-@media only screen and (min-width: 40em) {
-    .top-bar {
-        text-align: center; }
+.inner-wrap {
+    width: auto; }
 
-    ul.center-buttons {
-        display: inline-block; }
+.move-right .inner-wrap {
+    -ms-transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    margin-left: 114px; }
 
-    .logo {
-        left: 5px;
-        top: -2px;
-        position: absolute; } }
-.logo {
-    max-width: 2rem;
-    margin-top: -3px;
-    margin-left: 5px; }
+.left-off-canvas-menu {
+    -ms-transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    position: fixed;
+    width: 0;
+    height: 100%; }
 
-.menu-icon {
-    padding-top: 1.2rem; }
+.move-right .left-off-canvas-menu {
+    width: 114px; }
 
-.top-bar.expanded {
-    background: #333333; }
+.move-right .exit-off-canvas {
+    display: none; }
 
-.logo {
-    margin-top: .5rem; }
+.left-off-canvas-toggle {
+    display: none;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 3rem;
+    color: #333;
+    transition: all .25s ease-in-out; }
+.left-off-canvas-toggle:focus {
+    color: #333; }
+.left-off-canvas-toggle:hover {
+    color: #8c8c8c;
+    transition: all .25s ease-in-out; }
+
+.ad-block {
+    margin-bottom: 2rem; }
+
 /*
 Profile Card CSS
 
