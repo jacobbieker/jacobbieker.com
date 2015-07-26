@@ -186,6 +186,14 @@ Material Design Card CSS
     padding: 1.3rem;
     font-weight: 300;
     border-radius: 0 0 2px 2px; }
+.card .content  a {
+    padding: 1.3rem;
+    font-weight: 300;
+    border-radius: 0 0 2px 2px;
+    text-decoration: none;
+    margin-right: -1rem;
+    margin-left: -1rem;
+    text-transform: none;}
 .card p {
     margin: 0; }
 .card .action {
@@ -199,8 +207,8 @@ Material Design Card CSS
     text-decoration: none; }
 .card #github-feed a {
     text-transform: none;
-    margin-right: 0rem;
-    text-decoration: none; }
+    margin-right: -1rem;
+    text-decoration: none;  }
 .card .image {
     position: relative; }
 .card .image .title {
