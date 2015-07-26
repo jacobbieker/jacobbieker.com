@@ -58,8 +58,12 @@ body {
   font-size: 100%; }
 
 body {
-  background: #fff;
-  color: #222;
+    background: url("../img/2015_07_18_IMG_2451.jpg") 100% no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #222;
   cursor: auto;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
