@@ -7,5 +7,7 @@
     <orderEntry type="library" name="isotope.pkgd" level="application" />
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="library" name="mustache" level="application" />
+    <orderEntry type="library" name="mustache" level="application" />
+    <orderEntry type="library" name="jquery" level="application" />
   </component>
 </module>
