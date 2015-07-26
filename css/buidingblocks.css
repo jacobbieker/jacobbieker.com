@@ -1,3 +1,4 @@
+@import url(//fonts.googleapis.com/css?family=Roboto:400,500,300,100,700,900);
 
 /*
  * Copyright (C) 2015.  Jacob Bieker, jacob@bieker.us, ww.jacobbieker.com
@@ -167,9 +168,9 @@ i {
 /*
 Material Design Card CSS
 */
-@import url(//fonts.googleapis.com/css?family=Roboto:400,500,300,100,700,900);
 html, body {
-    background: #ffffff; }
+    background-image: url("../img/2015_07_18_IMG_2451.jpg"));
+}
 
 .card {
     padding: 1rem;
@@ -267,15 +268,6 @@ Showcase Cards CSS
 Footer
 */
 
-.hero {
-    background: url("http://images7.alphacoders.com/330/330811.jpg") no-repeat center center;
-    background-size: cover;
-    height: 50vh;
-    overflow: hidden; }
-
-.row {
-    max-width: 1200px; }
-
 .footer {
     background-color: #292c2f;
     text-align: center;
@@ -338,3 +330,24 @@ Footer
         position: absolute;
         left: -45%;
         top: 10%; } }
+
+/*
+YouTube Responsive embedding
+*/
+
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
