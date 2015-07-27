@@ -1,0 +1,60 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/js/foundation/foundation.min.js" />
+        <item url="file://$PROJECT_DIR$/js/foundation/foundation.joyride.min.js" />
+        <item url="file://$PROJECT_DIR$/js/github-activity.min.js" />
+        <item url="file://$PROJECT_DIR$/js/foundation/foundation.interchange.min.js" />
+        <item url="file://$PROJECT_DIR$/js/foundation/foundation.equalizer.min.js" />
+        <item url="file://$PROJECT_DIR$/js/offcanvas.min.js" />
+        <item url="file://$PROJECT_DIR$/js/foundation/foundation.dropdown.min.js" />
+        <item url="file://$PROJECT_DIR$/js/foundation/foundation.alert.min.js" />
+        <item url="file://$PROJECT_DIR$/js/vendor/modernizr.min.js" />
+        <item url="file://$PROJECT_DIR$/js/foundation/foundation.offcanvas.min.js" />
+        <item url="file://$PROJECT_DIR$/js/vendor/placeholder.min.js" />
+        <item url="file://$PROJECT_DIR$/js/foundation/foundation.magellan.min.js" />
+        <item url="file://$PROJECT_DIR$/js/foundation/foundation.tab.min.js" />
+        <item url="file://$PROJECT_DIR$/js/foundation/foundation.slider.min.js" />
+        <item url="file://$PROJECT_DIR$/js/vendor/fastclick.min.js" />
+        <item url="file://$PROJECT_DIR$/js/foundation/foundation.reveal.min.js" />
+        <item url="file://$PROJECT_DIR$/js/vendor/jquery.cookie.min.js" />
+        <item url="file://$PROJECT_DIR$/js/foundation/foundation.orbit.min.js" />
+        <item url="file://$PROJECT_DIR$/js/vendor/jquery.min.js" />
+        <item url="file://$PROJECT_DIR$/js/foundation/foundation.clearing.min.js" />
+        <item url="file://$PROJECT_DIR$/js/foundation/foundation.accordion.min.js" />
+        <item url="file://$PROJECT_DIR$/js/foundation/foundation.topbar.min.js" />
+        <item url="file://$PROJECT_DIR$/js/foundation/foundation.abide.min.js" />
+        <item url="file://$PROJECT_DIR$/js/foundation/foundation.tooltip.min.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/js/foundation/foundation.min.js" />
+      <root url="file://$PROJECT_DIR$/js/foundation/foundation.joyride.min.js" />
+      <root url="file://$PROJECT_DIR$/js/foundation/foundation.interchange.min.js" />
+      <root url="file://$PROJECT_DIR$/js/foundation/foundation.equalizer.min.js" />
+      <root url="file://$PROJECT_DIR$/js/foundation/foundation.dropdown.min.js" />
+      <root url="file://$PROJECT_DIR$/js/foundation/foundation.alert.min.js" />
+      <root url="file://$PROJECT_DIR$/js/foundation/foundation.offcanvas.min.js" />
+      <root url="file://$PROJECT_DIR$/js/foundation/foundation.magellan.min.js" />
+      <root url="file://$PROJECT_DIR$/js/foundation/foundation.tab.min.js" />
+      <root url="file://$PROJECT_DIR$/js/foundation/foundation.slider.min.js" />
+      <root url="file://$PROJECT_DIR$/js/foundation/foundation.reveal.min.js" />
+      <root url="file://$PROJECT_DIR$/js/foundation/foundation.orbit.min.js" />
+      <root url="file://$PROJECT_DIR$/js/foundation/foundation.topbar.min.js" />
+      <root url="file://$PROJECT_DIR$/js/foundation/foundation.tooltip.min.js" />
+      <root url="file://$PROJECT_DIR$/js/github-activity.min.js" />
+      <root url="file://$PROJECT_DIR$/js/offcanvas.min.js" />
+      <root url="file://$PROJECT_DIR$/js/vendor/modernizr.min.js" />
+      <root url="file://$PROJECT_DIR$/js/vendor/placeholder.min.js" />
+      <root url="file://$PROJECT_DIR$/js/vendor/fastclick.min.js" />
+      <root url="file://$PROJECT_DIR$/js/vendor/jquery.cookie.min.js" />
+      <root url="file://$PROJECT_DIR$/js/vendor/jquery.min.js" />
+      <root url="file://$PROJECT_DIR$/js/foundation/foundation.clearing.min.js" />
+      <root url="file://$PROJECT_DIR$/js/foundation/foundation.accordion.min.js" />
+      <root url="file://$PROJECT_DIR$/js/foundation/foundation.abide.min.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
