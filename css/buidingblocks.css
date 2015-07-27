@@ -146,6 +146,12 @@ Profile Card CSS
 .profile-card .profile-info .inline-list i.fi-social-android:hover {
     transform: scale(1.1);
     transition: all .5s ease-in-out; }
+.profile-card .profile-info .inline-list i.fi-mail {
+    font-size: 3rem;
+    color: #cc181e; }
+.profile-card .profile-info .inline-list i.fi-mail:hover {
+    transform: scale(1.1);
+    transition: all .5s ease-in-out; }
 /*
 Custom Icon CSS
 */
