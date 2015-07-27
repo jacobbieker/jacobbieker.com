@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<!--
+  ~ Copyright (C) 2015.  Jacob Bieker, jacob@bieker.us, ww.jacobbieker.com
+  ~
+  ~                                This program is free software; you can redistribute it and/or modify
+  ~                                it under the terms of the GNU General Public License as published by
+  ~                                the Free Software Foundation; either version 2 of the License, or
+  ~                                (at your option) any later version.
+  ~
+  ~                                This program is distributed in the hope that it will be useful,
+  ~                                but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~                                MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~                                GNU General Public License for more details.
+  ~
+  ~                                You should have received a copy of the GNU General Public License along
+  ~                                with this program; if not, write to the Free Software Foundation, Inc.,
+  ~                                51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+#Flickr
+<style type="text/css">
+    .flickr_badge_image img {border: 1px solid #666666 !important; padding:1px; margin:2px;}
+    #flickr_badge_wrapper {width:420px;text-align:left}
+</style><div id="flickr_badge_wrapper"><script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=10&display=latest&size=s&layout=x&source=user&user=132071132@N07"></script></div>
+
+<!---------------------------------------------------------------------------->
+#Twitter
+<a class="twitter-timeline" data-chrome="nofooter noborders noscrollbar" data-dnt="true" href="https://twitter.com/BiekerJacob" data-widget-id="623614686819254273">Tweets by @BiekerJacob</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<!---------------------------------------------------------------------------->
+#Footer w/CSS
+<link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+
+<header class="hero">
+    <h1></h1>
+    <h2 class="subheader"></h2>
+</header>
+<footer class="footer">
+    <div class="row">
+        <div class="small-12 medium-6 medium-push-6 columns">
+            <p class="logo show-for-small-only"><i class="fi-target"></i> FIGHT CLUB</p>
+            <form class="footer-form">
+                <div class="row">
+                    <div class="medium-9 medium-push-3 columns">
+                        <label>
+                            <label for="email" class="contact">Contact Us</label>
+                            <input type="email" id="email" placeholder="Email Address" />
+                        </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="medium-9 medium-push-3 columns">
+                        <label>
+                            <textarea rows="5" id="message" placeholder="Message"></textarea>
+                        </label>
+                    </div>
+                    <div class="row">
+                        <div class="medium-9 medium-push-3 columns">
+                            <button class="submit" type="submit" value="Submit">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="small-12 medium-6 medium-pull-6 columns">
+            <p class="logo hide-for-small-only"><i class="fi-target"></i> FIGHT CLUB</p>
+            <p class="footer-links">
+                <a href="#">Home</a>
+                <a href="#">Blog</a>
+                <a href="#">Pricing</a>
+                <a href="#">About</a>
+                <a href="#">Faq</a>
+                <a href="#">Contact</a>
+            </p>
+            <ul class="inline-list social">
+                <a href="#"><i class="fi-social-facebook"></i></a>
+                <a href="#"><i class="fi-social-twitter"></i></a>
+                <a href="#"><i class="fi-social-linkedin"></i></a>
+                <a href="#"><i class="fi-social-github"></i></a>
+            </ul>
+            <p class="copywrite">Copywrite not copywrite © 2015</p>
+        </div>
+    </div>
+    @charset "UTF-8";
+    .hero {
+    background: url("http://images7.alphacoders.com/330/330811.jpg") no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+    overflow: hidden; }
+
+    .row {
+    max-width: 1200px; }
+
+    .footer {
+    background-color: #292c2f;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem; }
+    .footer .social a {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    line-height: 2rem;
+    margin: 0 3px 0 0; }
+    .footer .copywrite {
+    color: #8f9296;
+    font-size: 0.875rem;
+    margin: 1rem 0 1rem 0; }
+    .footer .footer-form textarea, .footer .footer-form input {
+    border-radius: 3px;
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    font: inherit;
+    font-size: 0.875rem;
+    font-weight: normal;
+    color: #d1d2d2;
+    padding: 1.3rem; }
+    .footer .footer-form label {
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0 0 1rem 0;
+    font-weight: bold; }
+    .footer .footer-form .submit {
+    border-radius: 3px;
+    background-color: #33383b;
+    color: #ffffff;
+    border: 0;
+    padding: 1rem 3.5rem;
+    font-weight: bold;
+    float: right;
+    margin: 0 1rem 2rem 0; }
+    .footer .footer-links a {
+    list-style: none;
+    font-weight: normal;
+    color: #fff;
+    padding: 3rem 0 2rem;
+    margin: 0;
+    font-size: 0.875rem; }
+    .footer .footer-links a::after {
+    content: "•";
+    padding: 0 0.2rem 0 0.4rem; }
+    .footer .footer-links a:last-child::after {
+    content: "";
+    padding: 0 0.4rem 0 0.8rem; }
+    @media only screen and (min-width: 40.063em) {
+    .footer {
+    padding: 4rem; }
+    .footer p {
+    text-align: left; }
+    .footer .social {
+    text-align: left;
+    margin: 0; }
+    .footer .footer-form .contact {
+    position: absolute;
+    left: -45%;
+    top: 10%; } }
+
+    .logo {
+    color: #fff;
+    font-size: 1.5rem; }
+    .logo i {
+    margin-right: 0.5rem; }
+</footer>
+<!---------------------------------------------------------------------------->
+
+#Timeline w/CSS
+<div class="path-container">
+    <div class="row">
+        <div class="large-12 columns ">
+            <h1> This is a Timeline!</h1>
+        </div>
+    </div>
+    <div class="row path-item">
+        <div class="large-7 push-5 columns">
+            <div class="circle circle-left "></div>
+        </div>
+        <div class="large-5 pull-7 columns path-text left">
+            <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+            <p>Something that happened in the past or will happen in the future Lorem ipsum dolor sit amet, consectetur adipiscing elit.  a est. Suspendisse potenti. Sc lorem pretium, molestie</p>
+            <a href="#">Show something cool »</a>
+        </div>
+    </div>
+    <div class="row path-item">
+        <div class="large-7 columns">
+            <div class="circle circle-right right"></div>
+        </div>
+        <div class="large-5 columns path-text right">
+            <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+            <p>Something that happened in the past or will happen in the future Lorem ipsum dolor sit amet, consectetur adipiscing elit.  a est. Suspendisse potenti. Sc lorem pretium, molestie</p>
+            <a href="#">Show something cool »</a>
+        </div>
+    </div>
+    <div class="row get-feedback path-item">
+        <div class="large-7 push-5 columns">
+            <div class="circle circle-left"></div>
+        </div>
+        <div class="large-5 pull-7 columns path-text left">
+            <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+            <p>Something that happened in the past or will happen in the future Lorem ipsum dolor sit amet, consectetur adipiscing elit.  a est. Suspendisse potenti. Sc lorem pretium, molestie</p>
+            <a href="#">Show something cool »</a>
+        </div>
+    </div>
+    <div class="row land-job path-item">
+        <div class="large-7 columns">
+            <div class="circle circle-right right"></div>
+        </div>
+        <div class="large-5 columns path-text right">
+            <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+            <p>Something that happened in the past or will happen in the future Lorem ipsum dolor sit amet, consectetur adipiscing elit.  a est. Suspendisse potenti. Sc lorem pretium, molestie</p>
+            <a href="#">Show something cool »</a>
+        </div>
+    </div>
+    <span class="line hide-for-small"></span>
+</div>
+/*------------------------------------
+timeline styles
+------------------------------------*/
+.path-container {
+margin-top: 50px;
+margin-bottom: 70px;
+}
+.path-container .path-item h1 {
+text-align: center;
+margin-bottom: 70px;
+}
+.path-container .path-item h3 {
+margin-bottom: 10px;
+line-height: 1.15;
+}
+.path-container .path-item p {
+font-size: emCalc(16px);
+line-height: 1.7;
+margin-bottom: 25px;
+}
+.path-container .path-item a {
+font-weight: bold;
+font-size: emCalc(14px);
+}
+.path-container .path-item .circle {
+background-color: #ccc;
+background-size: 156px 156px;
+border-radius: 50%;
+width: 156px;
+height: 156px;
+position: relative;
+margin-bottom: 180px;
+z-index: 2;
+}
+.path-container .path-item .circle.circle-left {
+left: -7px;
+}
+.path-container .path-item .circle.circle-right {
+right: -10px;
+}
+.path-container .line {
+background: #ddd;
+width: 2px;
+bottom: 0;
+position: absolute;
+top: 160px;
+left: 50%;
+z-index: 0;
+height: 1164px;
+}
+
+/*------------------------------------
+medium timeline styles
+------------------------------------*/
+@media only screen and (max-width: 800px) and (min-width: 768px) {
+.line {
+display: none !important;
+}
+
+.large-5.columns.path-text {
+width: 70%;
+right: 0;
+margin-left: 15px;
+}
+
+.path-item .large-7 {
+width: 25%;
+}
+
+.push-5 {
+left: 0;
+float: right;
+}
+
+.circle-right {
+float: left;
+right: 0px !important;
+}
+
+.circle-left {
+left: 0px !important;
+}
+}
+/*------------------------------------
+mobile timeline styles
+------------------------------------*/
+@media only screen and (max-width: 767px) {
+.path-container {
+text-align: center;
+}
+.path-container .circle {
+top: 0;
+right: 0;
+left: 0;
+float: none;
+margin-bottom: 30px !important;
+margin-top: 60px;
+margin-left: auto;
+margin-right: auto;
+}
+}
+
+<!--------------------------------------------------------------------------->
+
+#Material Card w/CSS
+<div class="row">
+    <div class="medium-4 columns">
+        <div class="card">
+            <div class="image">
+                <img src="http://static.pexels.com/wp-content/uploads/2014/07/alone-clouds-hills-1909-527x350.jpg">
+                <span class="title">Road Warrior</span>
+            </div>
+            <div class="content">
+                <p>I shall be telling this with a sigh	. Somewhere ages and ages hence:	 Two roads diverged in a wood, and I —	 I took the one less traveled by.	 And that has made all the difference.</p>
+            </div>
+            <div class="action">
+                <a href='#'>Where this leads</a>
+            </div>
+        </div>
+    </div>
+    <div class="medium-6 columns end">
+        <div class="card">
+            <div class="content">
+                <span class="title">Robert Frost</span>
+                <p>Two roads diverged in a yellow wood,	 And sorry I could not travel both	 And be one traveler, long I stood	 And looked down one as far as I could	. To where it bent in the undergrowth;</p>
+            </div>
+            <div class="action">
+                <a href='#'>This is a link</a>
+                <a href='#'>This is a link</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@import url(//fonts.googleapis.com/css?family=Roboto:400,500,300,100,700,900);
+html, body {
+background: #FAFAFA; }
+
+.card {
+font-family: 'Roboto', sans-serif;
+overflow: hidden;
+box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+color: #272727;
+border-radius: 2px; }
+.card .title {
+line-height: 3rem;
+font-size: 1.5rem;
+font-weight: 300; }
+.card .content {
+padding: 1.3rem;
+font-weight: 300;
+border-radius: 0 0 2px 2px; }
+.card p {
+margin: 0; }
+.card .action {
+border-top: 1px solid rgba(160, 160, 160, 0.2);
+padding: 1.3rem; }
+.card a {
+color: #ffab40;
+margin-right: 1.3rem;
+transition: color 0.3s ease;
+text-transform: uppercase;
+text-decoration: none; }
+.card .image {
+position: relative; }
+.card .image .title {
+position: absolute;
+bottom: 0;
+left: 0;
+padding: 1.3rem;
+color: #fff; }
+.card .image img {
+border-radius: 2px 2px 0 0; }
+
+<!-------------------------------------------------------------------------------------------------->
+
+#Foundation Font and Icon styles, Style 6 is favorite
+<link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+
+<h2 class="subheader">FUN WITH</h2>
+<h3 class="subheader">FOUNDATION ICON FONTS</H1>
+    <hr />
+
+    <ul class="icon-styles small-block-grid-2 medium-block-grid-3 large-block-grid-5">
+        <li><span class="label">1</span><i class="fi-social-zurb style1"></i></li>
+        <li><span class="label">2</span><i class="fi-cloud style2"></i></li>
+        <li><span class="label">3</span><i class="fi-heart style3"></i></li>
+        <li><span class="label">4</span><i class="fi-clipboard-notes style4"></i></li>
+        <li><span class="label">5</span><i class="fi-compass style5"></i></li>
+        <li><span class="label">6</span><i class="fi-social-twitter style6"></i></li>
+        <li><span class="label">7</span><i class="fi-refresh style7"></i></li>
+        <li><span class="label">8</span><i class="fi-power style8"></i></li>
+        <li><span class="label">9</span><i class="fi-bitcoin-circle style9"></i></li>
+        <li><span class="label">10</span><i class="fi-yen style10"></i></li>
+        <li><span class="label">11</span><i class="fi-burst-new style11"></i></li>
+        <li><span class="label">12</span><i class="fi-skull style12"></i></li>
+        <li><span class="label">13</span><i class="fi-lightbulb style13"></i></li>
+        <li id="icon-box"><span class="label">14</span><i class="fi-tablet-portrait style14"></i></li>
+        <li><span class="label">15</span><i class="fi-pie-graph style15"></i></li>
+    </ul>
+    body {
+    margin: 2rem; }
+
+    i {
+    margin: 1rem;
+    font-size: 5rem; }
+
+    .style1 {
+    color: #B8D30B; }
+
+    .style2 {
+    color: #2DAEBF;
+    text-shadow: 0px 1px 0px #0092b3,0px 2px 0px #0087a6,0px 3px 0px #008099,0px 4px 0px #00758c,0px 5px 0px #555,0px 6px 0px #006a80,0px 0px 0px #006073,0px 8px 7px #005566; }
+
+    .style3 {
+    color: #E33100;
+    text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px #E33100,0 0 30px #E33100,0 0 40px #E33100,0 0 50px #E33100,0 0 75px #E33100; }
+
+    .style4 {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+    color: #A9014B; }
+
+    .style5 {
+    color: rgba(245, 159, 26, 0.8);
+    text-shadow: 1px 4px 6px #FFF,0 0 0 #000,1px 4px 6px #FFF; }
+
+    .style6 {
+    color: #999;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4), 1px 1px 2px rgba(0, 0, 0, 0.4); }
+    .style6:hover {
+    transition: all 0.5s ease 0s;
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.6), 3px 3px 8px rgba(0, 0, 0, 0.4); }
+
+    .style7 {
+    color: #3A539B;
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: both; }
+
+    .style8 {
+    color: #2FB6E8;
+    border-radius: 50%;
+    border: 4px solid #2FB6E8;
+    padding: .01em .22em; }
+    .style8:hover {
+    background-color: #fff;
+    box-shadow: 0 0 0 5px #fff;
+    transform: scale(0.9);
+    transition: all .4s ease-in-out; }
+
+    .style9 {
+    color: #F7CA18;
+    text-shadow: 15px 0 15px #999, -15px 0 15px #999, 0 20px 25px #999, 0 -20px 25px #999; }
+    .style9:hover {
+    color: #F64747;
+    transition: color 2s ease 0.1s;
+    text-shadow: 5px 0 5px #000;
+    transition: text-shadow 0.7s ease 0.2s; }
+
+    .style10 {
+    color: #019875;
+    text-shadow: 5px 0 5px #000; }
+
+    .style11 {
+    color: #F64747;
+    -webkit-mask-image: -webkit-radial-gradient(10% 40%, circle cover, rgba(0, 0, 0, 0.3), black);
+    text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.6); }
+
+    .style12 {
+    -webkit-text-fill-color: transparent;
+    /* background */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #333;
+    text-rendering: Antialiased; }
+
+    .style13 {
+    background: dodgerblue;
+    padding: .07em .25em;
+    border-radius: 50%; }
+    .style13:hover {
+    color: #fff;
+    text-shadow: 25px 0 25px #fff, -25px 0 25px #fff, 0 40px 45px #fff, 0 -40px 45px #fff;
+    transition: all .4s ease-in-out; }
+
+    .style14 {
+    color: #fff;
+    text-shadow: #12664b 1px 1px, #12664b 2px 2px, #12664b 3px 3px, #12664b 4px 4px, #12664b 5px 5px, #12664b 6px 6px, #12664b 7px 7px, #12664b 8px 8px, #12664b 9px 9px, #12664b 10px 10px, #12664b 11px 11px, #12664b 12px 12px, #12664b 13px 13px, #12664b 14px 14px, #12664b 15px 15px, #12664b 16px 16px, #12664b 17px 17px, #12664b 18px 18px, #12664b 19px 19px, #12664b 20px 20px, #12664b 21px 21px, #12664b 22px 22px, #12664b 23px 23px, #12664b 24px 24px, #12664b 25px 25px, #12664b 26px 26px, #12664b 27px 27px, #12664b 28px 28px, #12664b 29px 29px, #12664b 30px 30px, #12664b 31px 31px, #12664b 32px 32px, #12664b 33px 33px, #12664b 34px 34px, #12664b 35px 35px, #12664b 36px 36px, #12664b 37px 37px, #12664b 38px 38px, #12664b 39px 39px, #12664b 40px 40px, #12664b 41px 41px, #12664b 42px 42px, #12664b 43px 43px, #12664b 44px 44px, #12664b 45px 45px, #12664b 46px 46px, #12664b 47px 47px, #12664b 48px 48px, #12664b 49px 49px, #12664b 50px 50px, #12664b 51px 51px, #12664b 52px 52px, #12664b 53px 53px, #12664b 54px 54px, #12664b 55px 55px, #12664b 56px 56px, #12664b 57px 57px, #12664b 58px 58px, #12664b 59px 59px, #12664b 60px 60px, #12664b 61px 61px, #12664b 62px 62px, #12664b 63px 63px, #12664b 64px 64px, #12664b 65px 65px, #12664b 66px 66px, #12664b 67px 67px, #12664b 68px 68px, #12664b 69px 69px, #12664b 70px 70px, #12664b 71px 71px, #12664b 72px 72px, #12664b 73px 73px, #12664b 74px 74px, #12664b 75px 75px, #12664b 76px 76px, #12664b 77px 77px, #12664b 78px 78px, #12664b 79px 79px, #12664b 80px 80px, #12664b 81px 81px, #12664b 82px 82px, #12664b 83px 83px, #12664b 84px 84px, #12664b 85px 85px, #12664b 86px 86px, #12664b 87px 87px, #12664b 88px 88px, #12664b 89px 89px, #12664b 90px 90px, #12664b 91px 91px, #12664b 92px 92px, #12664b 93px 93px, #12664b 94px 94px, #12664b 95px 95px, #12664b 96px 96px, #12664b 97px 97px, #12664b 98px 98px, #12664b 99px 99px, #12664b 100px 100px, #12664b 101px 101px, #12664b 102px 102px, #12664b 103px 103px, #12664b 104px 104px, #12664b 105px 105px, #12664b 106px 106px, #12664b 107px 107px, #12664b 108px 108px, #12664b 109px 109px, #12664b 110px 110px, #12664b 111px 111px, #12664b 112px 112px, #12664b 113px 113px, #12664b 114px 114px, #12664b 115px 115px, #12664b 116px 116px, #12664b 117px 117px, #12664b 118px 118px, #12664b 119px 119px, #12664b 120px 120px, #12664b 121px 121px, #12664b 122px 122px, #12664b 123px 123px, #12664b 124px 124px, #12664b 125px 125px, #12664b 126px 126px, #12664b 127px 127px, #12664b 128px 128px, #12664b 129px 129px, #12664b 130px 130px, #12664b 131px 131px, #12664b 132px 132px, #12664b 133px 133px, #12664b 134px 134px, #12664b 135px 135px, #12664b 136px 136px, #12664b 137px 137px, #12664b 138px 138px, #12664b 139px 139px, #12664b 140px 140px, #12664b 141px 141px, #12664b 142px 142px, #12664b 143px 143px, #12664b 144px 144px, #12664b 145px 145px, #12664b 146px 146px, #12664b 147px 147px, #12664b 148px 148px, #12664b 149px 149px, #12664b 150px 150px; }
+
+    #icon-box {
+    text-align: center;
+    height: 10rem;
+    width: 8rem;
+    border-radius: 1.2rem;
+    overflow: hidden;
+    background-color: #1b926c; }
+
+    .style15 {
+    font-size: 0.4rem;
+    color: #3A539B;
+    border-style: solid;
+    border-width: 38px;
+    border-color: #77933c transparent #77933c #77933c;
+    border-radius: 50%;
+    position: relative; }
+    .style15:before {
+    content: "";
+    border-style: solid;
+    border-width: 46px;
+    border-color: transparent #376092 transparent transparent;
+    border-radius: 44px;
+    position: absolute;
+    top: -39px;
+    left: -54px; }
+
+    <!-------------------------------------------------------------------------------------------------------->
+
+#Profile Card
+    <!-- this adds Foundation Icon Fonts!! -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+
+    <div class="row">
+        <div class="medium-4 columns">
+            <div class="profile-card">
+                <img src="http://zurb.com/ink/images/inky-computer.svg" alt="Inky">
+                <div class="profile-info">
+                    <h4 class="subheader">Inky</h4>
+                    <p>Inky or inking can substitute for any word having to do with cool or awesome.</p>
+                    <p><strong>Used in a scentence -</strong> Yo man, Foundation for Emails is so inky. Coding emails doesn't suck anymore!</p>
+                    <p><a href="http://foundation.zurb.com/forum">Forum</a> | <a href="http://zurb.com/ink/">Website</a></p>
+                    <ul class="inline-list">
+                        <li><a href="https://www.facebook.com/ZURB"><i class="fi-social-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/zurbink"><i class="fi-social-twitter"></i></a></li>
+                        <li><a href="https://github.com/zurb/ink"><i class="fi-social-github"></i></a></li>
+                </div>
+            </div>
+        </div>
+        <div class="medium-4 columns">
+            <div class="profile-card">
+                <img src="http://www.demacmedia.com/wp-content/uploads/2014/04/330x330xYeti-Feature-Small-2.png.pagespeed.ic.ASS9EY8apS.png" alt="Yeti">
+                <div class="profile-info">
+                    <h4 class="subheader">O.G. Yeti</h4>
+                    <p>O.G. stands for original gangsta.</p>
+                    <p><strong>Used in a scentence - </strong>those tru gangstas from way back in the day that jacked ya and left nothing but you boxers and socks. Also, Biggie and Tupac were both O.G.'s</p>
+                    <p><a href="http://foundation.zurb.com/forum">Forum</a> | <a href="http://foundation.zurb.com/">Website</a></p>
+                    <ul class="inline-list">
+                        <li><a href="https://www.facebook.com/ZURB"><i class="fi-social-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/ZURBfoundation"><i class="fi-social-twitter"></i></a></li>
+                        <li><a href="https://github.com/zurb/foundation"><i class="fi-social-github"></i></a></li>
+                </div>
+            </div>
+        </div>
+        <div class="medium-4 columns">
+            <div class="profile-card">
+                <img src="https://pbs.twimg.com/profile_images/540601078916452352/gIke9rjv_bigger.png" alt="Swoll Yeti">
+                <div class="profile-info">
+                    <h4 class="subheader">Swoll Yeti</h4>
+                    <p>Slang for "Swollen", as in getting "swollen" or "buff" at the gym.</p>
+                    <p><strong>Used in a scentence -</strong> Yo, after a couple months at the Y, I'll be a swoll Yeti.</p>
+                    <p><a href="http://zurb.com/patterntap">Patterns</a> | <a href="http://foundation.zurb.com/apps/">Website</a></p>
+                    <ul class="inline-list">
+                        <li><a href="https://www.facebook.com/ZURB"><i class="fi-social-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/ZURBfoundation"><i class="fi-social-twitter"></i></a></li>
+                        <li><a href="https://github.com/zurb/foundation-apps"><i class="fi-social-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    .profile-card {
+    padding: 1rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin: 2rem 0;
+    background-color: #fff; }
+    .profile-card img {
+    width: 8rem;
+    display: block;
+    margin: 2rem auto;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #888888; }
+    .profile-card .profile-info {
+    padding: 1rem; }
+    .profile-card .profile-info h4 {
+    margin-top: 0;
+    text-align: center;
+    text-transform: uppercase; }
+    .profile-card .profile-info p {
+    text-align: center; }
+    .profile-card .profile-info .inline-list {
+    text-align: center;
+    margin-bottom: 1rem; }
+    .profile-card .profile-info .inline-list li {
+    float: none;
+    display: inline-block; }
+    .profile-card .profile-info .inline-list i.fi-social-facebook {
+    font-size: 1.5rem;
+    color: #3b5998; }
+    .profile-card .profile-info .inline-list i.fi-social-facebook:hover {
+    transform: scale(1.5);
+    transition: all .5s ease-in-out; }
+    .profile-card .profile-info .inline-list i.fi-social-twitter {
+    font-size: 1.5rem;
+    color: #55acee; }
+    .profile-card .profile-info .inline-list i.fi-social-twitter:hover {
+    transform: scale(1.5);
+    transition: all .5s ease-in-out; }
+    .profile-card .profile-info .inline-list i.fi-social-linkedin {
+    font-size: 1.5rem;
+    color: #0077b5; }
+    .profile-card .profile-info .inline-list i.fi-social-linkedin:hover {
+    transform: scale(1.5);
+    transition: all .5s ease-in-out; }
+    .profile-card .profile-info .inline-list i.fi-social-github {
+    font-size: 1.5rem;
+    color: #333; }
+    .profile-card .profile-info .inline-list i.fi-social-github:hover {
+    transform: scale(1.5);
+    transition: all .5s ease-in-out; }
+    .profile-card .profile-info .inline-list i.fi-social-youtube {
+    font-size: 1.5rem;
+    color: #cc181e; }
+    .profile-card .profile-info .inline-list i.fi-social-youtube:hover {
+    transform: scale(1.5);
+    transition: all .5s ease-in-out; }
+
+    <!---------------------------------------------------------------------------------------------->
+
+    #Product and Showcase card
+    <article class="website-example row wide">
+        <div class="large-6 columns">
+            <div class="row">
+                <div class="small-8 columns">
+                    <img src="http://zurb.com/responsive/system/upload/desktop_screenshots/images/000/000/843/regular/5-door.mini.com.au-wide.jpg?1423529169" alt="Mini Cooper Site Desktop Image">
+                </div>
+                <div class="small-4 columns">
+                    <img src="http://zurb.com/responsive/system/upload/mobile_screenshots/images/000/000/845/regular/5-door.mini.com.au-narrow.jpg?1423529203" alt="Mini Cooper Site Mobile Image">
+                </div>
+            </div>
+        </div>
+        <div class="large-6 columns">
+            <h3>Mini Cooper</h3>
+            <h6>built with foundation</h6>
+            <p>There’s nothing small about the effects on this “Mini” website and its use of scrolling as a fly-around of its eponymous car. The parallax steps aside on mobile for a neat intuitive image layout. The hamburger menu spins into action when clicked revealing a gorgeous dropdown.</p>
+            <a class="button" href="http://5-door.mini.com.au/">Take a Closer Look »</a>
+        </div>
+    </article>
+
+    <article class="website-example row wide">
+        <div class="large-6 columns">
+            <div class="row">
+                <div class="small-8 columns">
+                    <img src="http://zurb.com/responsive/system/upload/desktop_screenshots/images/000/000/834/regular/marriott-gopro.com-wide.jpg?1422646382" alt="Mariott GoPro Site Desktop Image">
+                </div>
+                <div class="small-4 columns">
+                    <img src="http://zurb.com/responsive/system/upload/mobile_screenshots/images/000/000/835/regular/marriott-gopro.com-narrow.jpg?1422646385" alt="Mariott GoPro Site Mobile Image">
+                </div>
+            </div>
+        </div>
+        <div class="large-6 columns">
+            <h3>Marriott GoPro</h3>
+            <h6>built with foundation</h6>
+            <p>It’s hard to fault GoPro for their efforts to make their site, partnered with Marriott, friendly towards mobile devices. But it’s the active photography that makes us want to go. Watch the full screen background video or scale the browser down to see the map conform to smaller screen.</p>
+            <a class="button" href="http://marriott-gopro.com">Take a Closer Look »</a>
+        </div>
+    </article>
+
+    <article class="website-example row wide">
+        <div class="large-6 columns">
+            <div class="row">
+                <div class="small-8 columns">
+                    <img src="http://zurb.com/responsive/system/upload/desktop_screenshots/images/000/000/785/regular/barclays.com-wide.jpg?1415038984" alt="Barclays Site Desktop Image">
+                </div>
+                <div class="small-4 columns">
+                    <img src="http://zurb.com/responsive/system/upload/mobile_screenshots/images/000/000/784/regular/barclays.com-narrow.jpg?1415038981" alt="Barclays Site Mobile Image">
+                </div>
+            </div>
+        </div>
+        <div class="large-6 columns">
+            <h3>Barclay's</h3>
+            <h6>built with foundation</h6>
+            <p>Many investment companies are moving towards responsive designs, but Barclay’s looks exceptionally well on smartphones, tablets, laptops and desktop computers. The site uses many smart techniques to get users where they need to go on a small device. They employ a multi-level off-canvas and in-section navigation to achieve a good user flow.</p>
+            <a class="button" href="http://www.barclays.com">Take a Closer Look »</a>
+        </div>
+    </article>
+
+    <article class="website-example row wide">
+        <div class="large-6 columns">
+            <div class="row">
+                <div class="small-8 columns">
+                    <img src="http://zurb.com/responsive/system/upload/desktop_screenshots/images/000/000/790/regular/starwars.com_3Anews-wide.jpg?1416007082" alt="Star Wars Site Desktop Image">
+                </div>
+                <div class="small-4 columns">
+                    <img src="http://zurb.com/responsive/system/upload/mobile_screenshots/images/000/000/791/regular/starwars.com_3Anews-narrow.jpg?1416007084" alt="Star Wars Site Mobile">
+                </div>
+            </div>
+        </div>
+        <div class="large-6 columns">
+            <h3>Star Wars News</h3>
+            <h6>built with foundation</h6>
+            <p>The Star Wars blog is built on a solid foundation of responsive design, satisfying fans craving news of the upcoming movie no matter what size device they use. On mobile a light sabre hamburger menu morphs and crosses when tapped. The off-canvas menu reveals the icon-bar that was visible on desktop.</p>
+            <a class="button" href="http://starwars.com/news">Take a Closer Look »</a>
+        </div>
+    </article>
+
+    <article class="website-example row wide">
+        <div class="large-6 columns">
+            <div class="row">
+                <div class="small-8 columns">
+                    <img src="http://zurb.com/responsive/system/upload/desktop_screenshots/images/000/000/768/regular/vans.com-wide.png?1412008708" alt="Vans Site Desktop Image">
+                </div>
+                <div class="small-4 columns">
+                    <img src="http://zurb.com/responsive/system/upload/mobile_screenshots/images/000/000/767/regular/vans.com-narrow.png?1412008695" alt="Vans Site Mobile Image">
+                </div>
+            </div>
+        </div>
+        <div class="large-6 columns">
+            <h3>Vans</h3>
+            <h6>built with foundation</h6>
+            <p>Vans never looked better — at least, not on smartphones that run well with the footwear photos and product descriptions. Vans has a ton of apparel with which they've done an amazing job organizing in a mega-menu that becomes a multi-level dropdown on mobile.</p>
+            <a class="button" href="http://www.vans.com">Take a Closer Look »</a>
+        </div>
+    </article>
+
+    <article class="website-example row wide">
+        <div class="large-6 columns">
+            <div class="row">
+                <div class="small-8 columns">
+                    <img src="http://zurb.com/responsive/system/upload/desktop_screenshots/images/000/000/741/regular/express.com-wide.jpg?1410306028" alt="Express Site Desktop Image">
+                </div>
+                <div class="small-4 columns">
+                    <img src="http://zurb.com/responsive/system/upload/mobile_screenshots/images/000/000/742/regular/express.com-narrow.jpg?1410306032" alt="Express Site Mobile Image">
+                </div>
+            </div>
+        </div>
+        <div class="large-6 columns">
+            <h3>Express</h3>
+            <h6>built with foundation</h6>
+            <p>This site’s designs makes its priorities clear: Find products, find deals, sell the lifestyle. That it helps shoppers on the go is a necessary bonus in today’s mobile-friendly world. From the amazing imagery to the mega-menu, Express knows how to pack all that greatness in when real estate is limited.</p>
+            <a class="button" href="http://www.express.com/">Take a Closer Look »</a>
+        </div>
+    </article>
+
+    <article class="website-example row wide">
+        <div class="large-6 columns">
+            <div class="row">
+                <div class="small-8 columns">
+                    <img src="http://zurb.com/responsive/system/upload/desktop_screenshots/images/000/000/476/regular/herschelsupply.com-wide.jpg?1386621480" alt="Herschel Supply Site Desktop Image">
+                </div>
+                <div class="small-4 columns">
+                    <img src="http://zurb.com/responsive/system/upload/mobile_screenshots/images/000/000/475/regular/herschelsupply.com-narrow.jpg?1386621478" alt="Herschel Supply Site Mobile Image">
+                </div>
+            </div>
+        </div>
+        <div class="large-6 columns">
+            <h3>Herschel Supply</h3>
+            <h6>built with foundation</h6>
+            <p>This site strikes a balance between simple and simplistic: The images and text speak for themselves. Enough said. On mobile, the off-canvas menu slides in from the left and the shopping cart slides in from the right.</p>
+            <a class="button" href="http://www.herschelsupply.com/">Take a Closer Look »</a>
+        </div>
+    </article>
+    body {
+    background: #F0F0F0; }
+
+    .website-example {
+    background: #fff;
+    padding: 1.75rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+    .website-example h3 {
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0 0.5rem 0; }
+    @media only screen and (max-width: 64em) {
+    .website-example h3 {
+    padding-top: 1rem; } }
+    .website-example h6 {
+    color: #50b2d0;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 0.875rem;
+    font-weight: bold;
+    padding: 0 0 0.5rem 0; }
+    .website-example p {
+    font-size: 0.875rem;
+    line-height: 1.2rem;
+    margin: 0;
+    padding: 0.875rem 0;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999; }
+    .website-example .button {
+    font-weight: bold;
+    color: #2BA6CB;
+    background: transparent;
+    padding-left: 0;
+    margin-bottom: 0;
+    box-shadow: none; }
+
+    .row.wide {
+    max-width: rem-calc(1200); }
+
+    <!------------------------------------------------------------------------------------------->
+
+    #Parallax Header, like current site
+    <div class="parallax-background">
+        <div class="intro-text">
+            scroll for parallax!
+            <p><i class="fi-arrow-down"></i></p>
+        </div>
+    </div>
+
+    <div class="parallax-content">
+        <p>Bacon ipsum dolor sit amet chicken pork loin hamburger ball tip, swine tenderloin salami meatball boudin tri-tip fatback shank bacon. Pork salami kevin, brisket spare ribs strip steak ham hock porchetta. Pork belly short loin tail porchetta. Pork pig meatball, beef ribs doner jerky tri-tip hamburger filet mignon strip steak ball tip ham tail tongue corned beef.</p>
+
+        <p>Flank spare ribs capicola, strip steak biltong pancetta bresaola tri-tip cow landjaeger. Short ribs sirloin beef ribs, flank capicola ribeye turducken. Sirloin boudin andouille tail. Ham flank tail sausage t-bone, jerky landjaeger kevin porchetta ground round pork belly.</p>
+
+        <p>Pork loin doner biltong shoulder meatball flank. Sirloin shankle ground round tail, short loin prosciutto beef ribs salami pork pancetta kielbasa. Brisket spare ribs jerky filet mignon flank. Turducken ham sausage pork loin salami. Ball tip meatloaf shank pancetta hamburger meatball. Jowl beef pork loin tenderloin turducken, pastrami capicola filet mignon ham hock pork belly t-bone jerky ball tip kevin.</p>
+
+        <p>Filet mignon shank pastrami pork loin ham jerky corned beef chuck drumstick ribeye prosciutto pork belly tail. Beef leberkas brisket ham hock tenderloin tail tri-tip pork chop. Corned beef boudin andouille tail fatback chicken strip steak biltong pancetta pork loin tri-tip landjaeger pastrami kevin. Tongue spare ribs kevin ribeye shoulder swine.</p>
+
+        <p>Chicken kielbasa swine ham hock filet mignon strip steak bacon fatback pork t-bone. Ground round shankle tongue, jowl flank spare ribs beef leberkas ham boudin shank capicola short ribs. Drumstick pork loin turkey pork chop salami andouille pork belly. Short loin tongue tri-tip, hamburger filet mignon pastrami doner shoulder turkey ball tip t-bone jerky ham chicken.</p>
+
+        <p>Ground round flank pork loin salami, cow biltong hamburger swine brisket tongue tenderloin drumstick meatball. Biltong tongue salami ham shankle, leberkas meatloaf sirloin ball tip. Pork loin pastrami spare ribs beef capicola sausage kevin filet mignon pork chop. Bacon jerky turkey shoulder cow capicola ball tip shank. Ham tongue tail tri-tip kielbasa ham hock frankfurter meatball cow brisket. Shankle sausage filet mignon biltong pork loin. Short ribs spare ribs chuck pig meatloaf shoulder cow tail brisket biltong ball tip ham hock.</p>
+    </div>
+    body {
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+    font-weight: 200;
+    font-size: 20px;
+    }
+
+    .parallax-background {
+    background-color: #0078A0;
+    height: 620px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    }
+
+    .intro-text {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    margin-top: 15%;
+    }
+    .parallax-content {
+    max-width: 100%;
+    position: relative;
+    top: 500px;
+    padding: 50px;
+    font-size: 20px;
+    background-color: #fff;
+    }
+
+    <!--------------------------------------------------------------------------------------->
+
+    #Nav bar with centered buttons and offcenter logo
+    <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+        <div class="logo">
+            <a href="http://zurb.com/stickers/images/intro-foundation.png"><img src="http://zurb.com/stickers/images/intro-foundation.png" /></a>
+        </div>
+        <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="center-buttons">
+                <li class="divider"></li>
+                <li><a href="#">Centered Button</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Centered Button</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Centered Button</a></li>
+                <li class="divider"></li>
+            </ul>
+        </section>
+    </nav>
+    @media only screen and (min-width: 40em) {
+    .top-bar {
+    text-align: center; }
+
+    ul.center-buttons {
+    display: inline-block; }
+
+    .logo {
+    left: 5px;
+    top: -2px;
+    position: absolute; } }
+    .logo {
+    max-width: 2rem;
+    margin-top: -3px;
+    margin-left: 5px; }
+
+    .menu-icon {
+    padding-top: 1.2rem; }
+
+    .top-bar.expanded {
+    background: #333333; }
+
+    .logo {
+    margin-top: .5rem; }
+
+    <!--------------------------------------------------------------------------------------->
+</body>
+</html>
+
+<!--------------------------------------Header Section -------------------------------------------------->
+<div class="contain-to-grid sticky">
+    <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+        <div class="logo">
+            <a href="http://zurb.com/stickers/images/intro-foundation.png"><img src="http://zurb.com/stickers/images/intro-foundation.png" /></a>
+        </div>
+        <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="center-buttons">
+                <li class="divider"></li>
+                <li><a href="#">Centered Button</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Centered Button</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Centered Button</a></li>
+                <li class="divider"></li>
+            </ul>
+        </section>
+    </nav>
+</div>
