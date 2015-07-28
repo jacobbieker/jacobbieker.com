@@ -1,0 +1,365 @@
+@import url(//fonts.googleapis.com/css?family=Roboto:400,500,300,100,700,900);
+
+/*
+ * Copyright (C) 2015.  Jacob Bieker, jacob@bieker.us, ww.jacobbieker.com
+ *
+ *                                This program is free software; you can redistribute it and/or modify
+ *                                it under the terms of the GNU General Public License as published by
+ *                                the Free Software Foundation; either version 2 of the License, or
+ *                                (at your option) any later version.
+ *
+ *                                This program is distributed in the hope that it will be useful,
+ *                                but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *                                MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *                                GNU General Public License for more details.
+ *
+ *                                You should have received a copy of the GNU General Public License along
+ *                                with this program; if not, write to the Free Software Foundation, Inc.,
+ *                                51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+
+/*
+Header CSS
+*/
+
+.inner-wrap {
+    width: auto; }
+
+.move-right .inner-wrap {
+    -ms-transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    margin-left: 114px; }
+
+.left-off-canvas-menu {
+    -ms-transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    position: fixed;
+    width: 0;
+    height: 100%; }
+
+.move-right .left-off-canvas-menu {
+    width: 114px; }
+
+.move-right .exit-off-canvas {
+    display: none; }
+
+.left-off-canvas-toggle {
+    display: none;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 3rem;
+    color: #333;
+    transition: all .25s ease-in-out; }
+.left-off-canvas-toggle:focus {
+    color: #333; }
+.left-off-canvas-toggle:hover {
+    color: #8c8c8c;
+    transition: all .25s ease-in-out; }
+
+.ad-block {
+    margin-bottom: 2rem; }
+
+/*
+Profile Card CSS
+
+*/
+.profile-card {
+    padding: 1rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin: 1rem 0;
+    background-color: #fff; }
+.profile-card img {
+    width: 8rem;
+    display: block;
+    margin: 2rem auto;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #888888; }
+.profile-card .profile-info {
+    padding: 1rem; }
+.profile-card .profile-info h4 {
+    margin-top: 0;
+    text-align: center;
+    text-transform: uppercase; }
+.profile-card .profile-info p {
+    text-align: center; }
+.profile-card .profile-info .inline-list {
+    text-align: center;
+    margin-bottom: 1rem; }
+.profile-card .profile-info .inline-list li {
+    float: none;
+    display: inline-block; }
+.profile-card .profile-info .inline-list i.fi-social-facebook {
+    font-size: 3rem;
+    color: #3b5998; }
+.profile-card .profile-info .inline-list i.fi-social-facebook:hover {
+    transform: scale(1.1);
+    transition: all .5s ease-in-out; }
+.profile-card .profile-info .inline-list i.fi-social-twitter {
+    font-size: 3rem;
+    color: #55acee; }
+.profile-card .profile-info .inline-list i.fi-social-twitter:hover {
+    transform: scale(1.1);
+    transition: all .5s ease-in-out; }
+.profile-card .profile-info .inline-list i.fi-social-linkedin {
+    font-size: 3rem;
+    color: #0077b5; }
+.profile-card .profile-info .inline-list i.fi-social-linkedin:hover {
+    transform: scale(1.1);
+    transition: all .5s ease-in-out; }
+.profile-card .profile-info .inline-list i.fi-social-github {
+    font-size: 3rem;
+    color: #333; }
+.profile-card .profile-info .inline-list i.fi-social-github:hover {
+    transform: scale(1.1);
+    transition: all .5s ease-in-out; }
+.profile-card .profile-info .inline-list i.fi-social-youtube {
+    font-size: 3rem;
+    color: #cc181e; }
+.profile-card .profile-info .inline-list i.fi-social-youtube:hover {
+    transform: scale(1.1);
+    transition: all .5s ease-in-out; }
+.profile-card .profile-info .inline-list i.fi-social-instagram {
+    font-size: 3rem;
+    color: #cc181e; }
+.profile-card .profile-info .inline-list i.fi-social-instagram:hover {
+    transform: scale(1.1);
+    transition: all .5s ease-in-out; }
+.profile-card .profile-info .inline-list i.fi-social-flickr {
+    font-size: 3rem;
+    color: #cc181e; }
+.profile-card .profile-info .inline-list i.fi-social-flickr:hover {
+    transform: scale(1.1);
+    transition: all .5s ease-in-out; }
+.profile-card .profile-info .inline-list i.fi-social-android {
+    font-size: 3rem;
+    color: #cc181e; }
+.profile-card .profile-info .inline-list i.fi-social-android:hover {
+    transform: scale(1.1);
+    transition: all .5s ease-in-out; }
+.profile-card .profile-info .inline-list i.fi-mail {
+    font-size: 3rem;
+    color: #cc181e; }
+.profile-card .profile-info .inline-list i.fi-mail:hover {
+    transform: scale(1.1);
+    transition: all .5s ease-in-out; }
+/*
+Custom Icon CSS
+*/
+
+body {
+    margin: 2rem; }
+
+i {
+    margin: 1rem;
+    font-size: 5rem; }
+
+
+.style6 {
+    color: #999;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4), 1px 1px 2px rgba(0, 0, 0, 0.4); }
+.style6:hover {
+    transition: all 0.5s ease 0s;
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.6), 3px 3px 8px rgba(0, 0, 0, 0.4); }
+
+/*
+Material Design Card CSS
+*/
+
+.card {
+    background: #FFFFFF;
+    padding: 1rem;
+    margin: 1rem 0;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    color: #272727;
+    border-radius: 2px; }
+.card .title {
+    line-height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 300; }
+.card .content {
+    padding: 1.3rem;
+    font-weight: 300;
+    border-radius: 0 0 2px 2px; }
+.card .content  a {
+    padding: 1.3rem;
+    font-weight: 300;
+    border-radius: 0 0 2px 2px;
+    text-decoration: none;
+    margin-right: -1rem;
+    margin-left: -1rem;
+    text-transform: none;}
+.card p {
+    margin: 0; }
+.card .action {
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    padding: 1.3rem; }
+.card a {
+    color: #ffab40;
+    margin-right: 1.3rem;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+    text-decoration: none; }
+.card #github-feed a {
+    text-transform: none;
+    margin-right: -1rem;
+    text-decoration: none;  }
+.card .image {
+    position: relative; }
+.card .image .title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 500;
+    line-height: 3rem;
+    font-size: 2.5rem;
+    color: #ffffff; }
+.card .image .title .white {
+    color: #ffffff; }
+.card .image .title .black {
+    font-weight: 300;
+    color: #000000; }
+.card .image .title .grey {
+    color: #999999; }
+.card .image .title .blue {
+    color: #0077b5; }
+.card .image img {
+    border-radius: 2px 2px 0 0; }
+
+/*
+Showcase Cards CSS
+*/
+
+.work-showcase {
+    background: #fff;
+    padding: 1.75rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+.work-showcase h3 {
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0 0.5rem 0; }
+@media only screen and (max-width: 64em) {
+    .work-showcase h3 {
+        padding-top: 1rem; } }
+.work-showcase h6 {
+    color: #50b2d0;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 0.875rem;
+    font-weight: bold;
+    padding: 0 0 0.5rem 0; }
+.work-showcase p {
+    font-size: 0.875rem;
+    line-height: 1.2rem;
+    margin: 0;
+    padding: 0.875rem 0;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999; }
+.work-showcase .button {
+    font-weight: bold;
+    color: #2BA6CB;
+    background: transparent;
+    padding-left: 0;
+    margin-bottom: 0;
+    box-shadow: none; }
+
+/*
+Footer
+*/
+
+.footer {
+    background-color: #292c2f;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem; }
+.footer p {
+    color: #ffffff;
+}
+.footer .copywrite {
+    color: #8f9296;
+    font-size: 0.875rem;
+    margin: 1rem 0 1rem 0; }
+.footer .footer-form textarea, .footer .footer-form input {
+    border-radius: 3px;
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    font: inherit;
+    font-size: 0.875rem;
+    font-weight: normal;
+    color: #d1d2d2;
+    padding: 1.3rem; }
+.footer .footer-form label {
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0 0 1rem 0;
+    font-weight: bold; }
+.footer .footer-form .submit {
+    border-radius: 3px;
+    background-color: #33383b;
+    color: #ffffff;
+    border: 0;
+    padding: 1rem 3.5rem;
+    font-weight: bold;
+    float: right;
+    margin: 0 1rem 2rem 0; }
+.footer .footer-links a {
+    list-style: none;
+    font-weight: normal;
+    color: #fff;
+    padding: 3rem 0 2rem;
+    margin: 0;
+    font-size: 0.875rem; }
+.footer .footer-links a::after {
+    content: "•";
+    padding: 0 0.2rem 0 0.4rem; }
+.footer .footer-links a:last-child::after {
+    content: "";
+    padding: 0 0.4rem 0 0.8rem; }
+@media only screen and (min-width: 40.063em) {
+    .footer {
+        padding: 4rem; }
+    .footer p {
+        text-align: left; }
+    .footer .social {
+        text-align: left;
+        margin: 0; }
+    .footer .footer-form .contact {
+        position: absolute;
+        left: -45%;
+        top: 10%; } }
+
+/*
+YouTube Responsive embedding
+*/
+
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
