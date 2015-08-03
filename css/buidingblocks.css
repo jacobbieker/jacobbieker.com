@@ -152,10 +152,10 @@ Profile Card CSS
 .profile-card .profile-info .inline-list i.fi-mail:hover {
     transform: scale(1.1);
     transition: all .5s ease-in-out; }
-.profile-card .profile-info .inline-list i.fi-social-google-plus {
+.profile-card .profile-info .inline-list i.fi-social-500px {
     font-size: 3rem;
     color: #cc181e; }
-.profile-card .profile-info .inline-list i.fi-social-google-plus:hover {
+.profile-card .profile-info .inline-list i.fi-social-500px:hover {
     transform: scale(1.1);
     transition: all .5s ease-in-out; }
 /*
