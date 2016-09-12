@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<!--
+  ~ Copyright (C) 2015.  Jacob Bieker, jacob@bieker.us, ww.jacobbieker.com
+  ~
+  ~                                This program is free software; you can redistribute it and/or modify
+  ~                                it under the terms of the GNU General Public License as published by
+  ~                                the Free Software Foundation; either version 2 of the License, or
+  ~                                (at your option) any later version.
+  ~
+  ~                                This program is distributed in the hope that it will be useful,
+  ~                                but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~                                MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~                                GNU General Public License for more details.
+  ~
+  ~                                You should have received a copy of the GNU General Public License along
+  ~                                with this program; if not, write to the Free Software Foundation, Inc.,
+  ~                                51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jacob Bieker</title>
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/foundation.min.css" />
+    <link rel="stylesheet" href="css/normalize.min.css" />
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.min.css" />
+    <!----- This adds the building block CSS ---->
+    <link rel="stylesheet" href="css/buidingblocks.min.css">
+    <script src="js/vendor/modernizr.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.interchange.min.js"></script>
+    <script type="text/javascript" src="js/offcanvas.min.js"></script>
+    <!----- Google Analytics ---->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-60955747-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+<body>
+<!--------------------------------------Header Section -------------------------------------------------->
+<div class="off-canvas-wrap move-right" data-offcanvas>
+    <div class="inner-wrap">
+
+        <a class="left-off-canvas-toggle" href="#"><i class="fi-list"></i></a>
+
+        <!-- Off Canvas Menu -->
+        <aside class="left-off-canvas-menu">
+
+            <div class="icon-bar vertical five-up">
+                <a class="item" href="index.html">
+                    <i class="fi-home"></i>
+                    <label>Home</label>
+                </a>
+                <a class="item" href="about.html">
+                    <i class="fi-male"></i>
+                    <label>About</label>
+                </a>
+                <a class="item" href="research.html">
+                    <i class="fi-clipboard-notes"></i>
+                    <label>Research</label>
+                </a>
+                <a class="item" href="work.html">
+                    <i class="fi-folder"></i>
+                    <label>Work</label>
+                </a>
+                <a class="item" href="photography.html">
+                    <i class="fi-camera"></i>
+                    <label>Photography</label>
+                </a>
+                <a class="item" href="contact.html">
+                    <i class="fi-address-book"></i>
+                    <label>Contact</label>
+                </a>
+            </div>
+
+        </aside>
+    </div>
+
+    <div class="row">
+        <div class="isotope">
+            <div class="medium-12 columns">
+                <div class="card">
+                    <span class="title"><span class="black">Research in Rapa Nui 2016</span></span>
+                    <div class="content">
+                        <p>I went on a two week exchange program to Rapa Nui, where I worked on archeology research and experienced the life and culture.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------Start of Experiences Section ------------------------------------------->
+    <article class="work-showcase row">
+        <div class="large-6 columns">
+            <div class="row">
+                <div class="small-12 columns">
+                    <img src="img/moai_fail_one.png" />
+                    <noscript><img src="img/moai_fail_one.png"></noscript>
+                </div>
+            </div>
+        </div>
+        <div class="large-6 columns">
+            <h3>Photogammetry Results</h3>
+            <h6>University of Oregon</h6>
+            <p>The results from the photogammetry were somewhat disappointing. Because of corruption issues in the image
+                files resulting from a computer crash, and issues with recovering files
+                the final models were not as complete or useful as originally hoped. The main focus of my research project, therefore, changed to showing why
+            the models were not complete, and future ways to fix the shortcomings apparent in my project. I found out after the study abroad that there were specific
+            guidelines for how the photos should be taken for the photogammetry software, in our case <a href="http://www.agisoft.com/">Agisoft Photoscan</a>.
+            In my case, almost none of the photos were taken with the proper settings, or even with the proper lens, resulting in models that could either not be stitched together
+            or had distorted and missing chunks from the final product. One example would be the model of a moai attached to this post. It has incredible detail, down to
+            individual rocks in the tuft, but si incomplete as a result of the extreme (300mm) zoom I was using, instead of the recommended 50mm focal length. Two examples of
+            models can be downloaded in the links below, and either opened up in Photoscan, or in the open source <a href="http://meshlab.sourceforge.net/">Meshlab</a>.
+            In the end, the photogammetry ended up not working nearly as successfully as planned or hoped for, but did teach valuable lessons on what not to do.
+            Many of the lessons I took from the attempted photogammetry on Easter Island I then used to create much better models of other sturcutres and statues, some
+            of which are attached to this post. They include the 24-inch Telescope dome from the University of Oregon's Pine Mountain Observatory, a statue outside the Chicago
+            Board of Trade, and a pillar from a Viking Burial ground in Denmark</p>
+            <a class="button" href="publications/Rapa_Nui_Paper.pdf">View Paper »</a>
+            <a class="button" href="publications/lone_moai.zip">Download Moai Model »</a>
+            <a class="button" href="publications/moai_hike_two.zip">Download North Coast Moai Model »</a>
+            <a class="button" href="publications/pmo.zip">Download Pine Mountain Observatory Model »</a>
+            <a class="button" href="publications/chicago_statue.zip">Download Chicago Statue Model »</a>
+            <a class="button" href="publications/viking.zip">Download Viking Burial Model »</a>
+        </div>
+    </article>
+
+    <article class="work-showcase row">
+        <div class="large-6 columns">
+            <div class="row">
+                <div class="small-12 columns">
+                    <img src="img/2016_07_08-225707.jpg" />
+                </div>
+            </div>
+        </div>
+        <div class="large-6 columns">
+            <h3>Night Photography on Rapa Nui</h3>
+            <h6>Anakena, Rapa Nui</h6>
+            <h6>10 July 2016</h6>
+            <p>
+                This night of the trip was one of the best nights of my life. The moon was not going to rise until after sunrise,
+                allowing for me to go see one of the darkest nights anywhere in the world. With the closest settlement around two
+                thousand miles away on mainland Chile, there was no light pollution to say of. I went with Dean Hunt and a few of
+                the other students on the trip to the beach at Anakena, where there are seven standing moai statues, some with the
+                topknot. The night sky was beautiul, with the entire center of the Milky Way stretching over the statues and the
+                Small Magenellic Cloud (SMC) visible near the horizon. The SMC is a satallite galaxy that orbits the Milky Way and
+                can only be seen in the Southern Hemisphere, making this amazing nights even more incredible. More photos of this night,
+                and other astrophotography, can be found on my <a href="https://www.instagram.com/jacobieker">Instagram</a>.
+            </p>
+        </div>
+    </article>
+
+    <article class="work-showcase row">
+        <div class="large-6 columns">
+            <div class="row">
+                <div class="small-12 columns">
+                    <img data-interchange="[img/small/image-03-full.jpg, (small)], [img/medium/image-03-full.jpg, (medium), [img/full/image-03-full.jpg, (large)]]">
+                    <noscript><img src="img/small/image-03-full.jpg"></noscript>
+                </div>
+            </div>
+        </div>
+        <div class="large-6 columns">
+            <h3>Pine Mountain Observatory</h3>
+            <h6>Oregon Observation Remote Control Center</h6>
+            <h6>December 2014 - Present</h6>
+            <p> I work on analyzing data from the observatory's telescopes, and creating other software to control aspects of the observatory.</p>
+            <a class="button" href="https://github.com/Pine-Mountain-Observatory">View Projects on GitHub »</a>
+        </div>
+    </article>
+
+    <article class="work-showcase row">
+        <div class="large-6 columns">
+            <div class="row">
+                <div class="small-12 columns">
+                    <img data-interchange="[img/small/su2c-logo.jpg, (small)], [img/medium/su2c-logo.jpg, (medium), [img/full/su2c-logo.jpg, (large)]]">
+                    <noscript><img src="img/small/su2c-logo.jpg"></noscript>
+                </div>
+            </div>
+        </div>
+        <div class="large-6 columns">
+            <h3>Aperio Imaging Data Consolidator</h3>
+            <h6>Stand Up 2 Cancer Pacnreatic Cancer Team</h6>
+            <h6>Oregon Health and Science University</h6>
+            <p>The Aperio Consolidator takes the file output from Aperio imaging devices, combines them, and runs some summary statistics on the data files. The main purpose was to help with imaging pancreatic cancer cells in mice.</p>
+            <a class="button" href="https://github.com/jacobbieker/SU2C_pancreatic_cancer_scripts">View Project on GitHub »</a>
+        </div>
+    </article>
+
+    <article class="work-showcase row">
+        <div class="large-6 columns">
+            <div class="row">
+                <div class="small-12 columns">
+                    <img data-interchange="[img/small/beacon.jpg, (small)], [img/medium/beacon.jpg, (medium), [img/full/beacon.png, (large)]]">
+                    <noscript><img src="img/small/beacon.jpg"></noscript>
+                </div>
+            </div>
+        </div>
+        <div class="large-6 columns">
+            <h3>OHSU Beacon Project</h3>
+            <h6>Global Alliance For Genomics and Health</h6>
+            <h6>Oregon Health and Science University</h6>
+            <p>I added support for importing Corless-formatted genetic data files into a SQLite database so that OHSU could light their Beacon and share their genetic data with the rest of the world.</p>
+            <a class="button" href="https://github.com/jacobbieker/ohsuBeacon">View Project on GitHub »</a>
+        </div>
+    </article>
+
+    <article class="work-showcase row">
+        <div class="large-6 columns">
+            <div class="row">
+                <div class="small-12 columns">
+                    <img data-interchange="[img/small/TCR-Sequencing.jpg, (small)], [img/medium/TCR-Sequencing.jpg, (medium), [img/full/TCR-Sequencing.png, (large)]]">
+                    <noscript><img src="img/small/TCR-Sequencing.jpg"></noscript>
+                </div>
+            </div>
+        </div>
+        <div class="large-6 columns">
+            <h3>T-cell Receptor Sequencing</h3>
+            <h6>Stand Up 2 Cancer Pancreatic Cancer Team</h6>
+            <h6>Oregon Health and Science University</h6>
+            <p>I created scripts to normalize TCR sequencing output and visualize the data in a way suitable for publication.</p>
+            <a class="button" href="https://github.com/jacobbieker/TCR-Sequencing">View Project on GitHub »</a>
+        </div>
+    </article>
+
+    <article class="work-showcase row">
+        <div class="large-6 columns">
+            <div class="row">
+                <div class="small-12 columns">
+                    <img data-interchange="[img/small/TCR-Sequencing.jpg, (small)], [img/medium/TCR-Sequencing.jpg, (medium), [img/full/TCR-Sequencing.png, (large)]]">
+                    <noscript><img src="img/small/TCR-Sequencing.jpg"></noscript>
+                </div>
+            </div>
+        </div>
+        <div class="large-6 columns">
+            <h3>Genomics Visualization</h3>
+            <h6>Brenden-Colson Center</h6>
+            <h6>Oregon Health and Science University</h6>
+            <p>I worked on creating graphs and other visualizations of genomic tumor and metastasis data and integrated my projects into LabKey.</p>
+            <a class="button" href="https://github.com/jacobbieker/gene_diagrams">View Project on GitHub »</a>
+        </div>
+    </article>
+
+</div>
+<!--------------------------------------End of Work Section -------------------------------------->
+<!--- Footer Card --->
+
+<article class="work-showcase row">
+    <div class="large-4 columns">
+        <div class="row">
+            <div class="small-8 columns">
+                <p class="copywrite">Copywrite Jacob Bieker © 2015</p>
+            </div>
+        </div>
+    </div>
+    <div class="large-8 columns">
+        <form class="footer-form">
+            <div class="row">
+                <div class="medium-9 medium-push-3 columns">
+                    <label>
+                        <label for="email" class="contact">Contact Me</label>
+                        <input type="email" id="email" placeholder="Email Address" />
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="medium-9 medium-push-3 columns">
+                    <label>
+                        <textarea rows="5" id="message" placeholder="Message"></textarea>
+                    </label>
+                </div>
+                <div class="row">
+                    <div class="medium-9 medium-push-3 columns">
+                        <button class="submit" type="submit" value="Submit">Send</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</article>
+<script>
+    $(document).foundation();
+</script>
+</body>
+</html>
